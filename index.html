@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopstop - Your Ultimate Shopping Destination</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="index.html">Shopstop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#login">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-light py-5 text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold text-primary">Welcome to Shopstop</h1>
+            <p class="lead text-secondary">Your one-stop destination for effortless and joyful shopping. Discover
+                amazing deals and top-notch products today!</p>
+            <a href="#featured-products" class="btn btn-primary btn-lg mt-3">Explore Now</a>
+        </div>
+    </header>
+
+    <!-- Product Categories -->
+    <section class="container my-5">
+        <h2 class="text-center text-primary fw-bold mb-4">Shop by Category</h2>
+        <div class="row text-center">
+            <div class="col-md-3">
+                <img src="https://via.placeholder.com/150" class="rounded mb-2" alt="Electronics">
+                <h5>Electronics</h5>
+            </div>
+            <div class="col-md-3">
+                <img src="https://via.placeholder.com/150" class="rounded mb-2" alt="Fashion">
+                <h5>Fashion</h5>
+            </div>
+            <div class="col-md-3">
+                <img src="https://via.placeholder.com/150" class="rounded mb-2" alt="Home Appliances">
+                <h5>Home Appliances</h5>
+            </div>
+            <div class="col-md-3">
+                <img src="https://via.placeholder.com/150" class="rounded mb-2" alt="Beauty Products">
+                <h5>Beauty Products</h5>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="featured-products" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center text-primary fw-bold mb-4">Featured Products</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Smartphone">
+                        <div class="card-body">
+                            <h5 class="card-title">Smartphone</h5>
+                            <p class="card-text">Experience the latest technology with our premium smartphones.</p>
+                            <a href="#" class="btn btn-outline-primary">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Fashion Wear">
+                        <div class="card-body">
+                            <h5 class="card-title">Fashion Wear</h5>
+                            <p class="card-text">Upgrade your style with our trendy and affordable outfits.</p>
+                            <a href="#" class="btn btn-outline-primary">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Home Appliances">
+                        <div class="card-body">
+                            <h5 class="card-title">Home Appliances</h5>
+                            <p class="card-text">Equip your home with our high-quality appliances.</p>
+                            <a href="#" class="btn btn-outline-primary">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="container my-5">
+        <h2 class="text-center text-primary fw-bold mb-4">What Our Customers Say</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <blockquote class="blockquote text-center">
+                    <p>"ShopEase makes online shopping so easy! Fast delivery and amazing deals!"</p>
+                    <footer class="blockquote-footer">Ayesha K.</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4">
+                <blockquote class="blockquote text-center">
+                    <p>"The customer service is exceptional. They helped me with my order instantly!"</p>
+                    <footer class="blockquote-footer">John D.</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4">
+                <blockquote class="blockquote text-center">
+                    <p>"I always find what I need at the best prices. Highly recommended!"</p>
+                    <footer class="blockquote-footer">Priya S.</footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Subscription -->
+    <section class="bg-light py-5">
+        <div class="container text-center">
+            <h2 class="text-primary fw-bold">Stay Updated!</h2>
+            <p class="text-muted">Subscribe to our newsletter and get exclusive deals directly in your inbox.</p>
+            <form class="row justify-content-center">
+                <div class="col-md-6">
+                    <input type="email" class="form-control" placeholder="Enter your email" required>
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Login Form -->
+    <section id="login" class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                        <h3 class="card-title text-center text-primary">Login</h3>
+                        <form action="login.php" method="POST">
+                            <div class="mb-3">
+                                <label for="username" class="form-label">Username</label>
+                                <input type="text" class="form-control" id="username" name="username" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password" name="password" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Login</button>
+                        </form>
+                        <p class="text-center mt-3">Don't have an account? <a href="register.html">Register here</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-3">
+        <p class="mb-0">&copy; 2025 Shopstop | All Rights Reserved</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.querySelector('form').addEventListener('submit', async function (e) {
+            e.preventDefault();
+            const username = document.querySelector('#username').value;
+            const password = document.querySelector('#password').value;
+
+            const res = await fetch('api/login.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ username, password })
+            });
+
+            const data = await res.json();
+            if (data.success) {
+                window.location.href = 'dash.php';
+            } else {
+                alert(data.message);
+            }
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Shopstop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Shopstop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Us Section -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Contact Us</h1>
+            <p class="lead">We'd love to hear from you! Feel free to reach out with your queries or feedback.</p>
+        </div>
+    </header>
+
+    <!-- Contact Details and Form -->
+    <div class="container my-5">
+        <div class="row g-4">
+            <!-- Contact Details -->
+            <div class="col-md-6">
+                <div class="p-4 shadow rounded bg-light">
+                    <h3 class="text-primary">Get in Touch</h3>
+                    <p>
+                        Have questions or need help? Contact us using the details below:
+                    </p>
+                    <ul class="list-unstyled">
+                        <li><strong>Phone:</strong> 0322-2333222</li>
+                        <li><strong>Email:</strong> <a href="mailto:support@shopstop.com">support@shopstop.com</a></li>
+                        <li><strong>Address:</strong> 123 street 4, 6th Road, Rawalpindi</li>
+                    </ul>
+                    <p class="text-muted mt-3">Our customer service team is available 24/7 to assist you.</p>
+
+                    <!-- Working Hours -->
+                    <div class="mt-4">
+                        <h4 class="text-primary">Working Hours</h4>
+                        <ul class="list-unstyled">
+                            <li><strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM</li>
+                            <li><strong>Saturday:</strong> 10:00 AM - 4:00 PM</li>
+                            <li><strong>Sunday:</strong> Closed</li>
+                        </ul>
+                    </div>
+
+                    <!-- Social Media Links -->
+                    <div class="mt-4">
+                        <h4 class="text-primary">Follow Us</h4>
+                        <div class="d-flex gap-3">
+                            <a href="#" class="text-dark"><i class="fab fa-facebook fa-2x"></i></a>
+                            <a href="#" class="text-dark"><i class="fab fa-twitter fa-2x"></i></a>
+                            <a href="#" class="text-dark"><i class="fab fa-instagram fa-2x"></i></a>
+                            <a href="#" class="text-dark"><i class="fab fa-linkedin fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="col-md-6">
+                <div class="p-4 shadow rounded bg-light">
+                    <h3 class="text-primary">Send Us a Message</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Write your message"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Google Map -->
+    <div class="container my-5">
+        <h2 class="text-center text-primary mb-4">Our Location</h2>
+        <div class="ratio ratio-16x9">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3317.041269018926!2d73.063997315208!3d33.78419728068956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbfd07891722f%3A0x6059515c3bdb02b6!2sRawalpindi%2C%20Pakistan!5e0!3m2!1sen!2s!4v1633081234567!5m2!1sen!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <div class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center text-primary mb-4">What Our Customers Say</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <p class="card-text">"Shopstop made my online shopping so easy. The product quality is
+                                unmatched!"</p>
+                            <footer class="blockquote-footer">Sarah, <cite>Happy Customer</cite></footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <p class="card-text">"Amazing deals and super-fast delivery. I highly recommend ShopEase!"
+                            </p>
+                            <footer class="blockquote-footer">John, <cite>Satisfied Shopper</cite></footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <p class="card-text">"Great customer service and a wide range of products. Love shopping
+                                here!"</p>
+                            <footer class="blockquote-footer">Emma, <cite>Loyal Customer</cite></footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">© 2025 Shopstop | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.querySelector('form').addEventListener('submit', async function (e) {
+            e.preventDefault();
+            const name = document.querySelector('#name').value;
+            const email = document.querySelector('#email').value;
+            const message = document.querySelector('#message').value;
+
+            const res = await fetch('api/contact.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name, email, message })
+            });
+
+            const data = await res.json();
+            if (data.success) {
+                alert("Thank you! Your message has been sent.");
+            } else {
+                alert("Error: " + data.message);
+            }
+        });
+    </script>
+
+</body>
+
+</html>
